@@ -26,7 +26,9 @@ publically available to use.
 * I created a csv of dialogue in moana. Dialogue was gathered by 
 watching the movie and manually typing lines into an excel 
 spreadsheet. I included text, speaker, and if the line was sung 
-or spoken. Through my code (link here), I created a dataframe with all 
+or spoken. Through my 
+[code](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Refining_Disney_Data.ipynb), 
+I created a dataframe with all 
 columns found in the disney movie csv file, as well as gender, role, and 
 start of the scene.
 * This csv file was then combined with the larger disney movie script 
@@ -37,7 +39,9 @@ scripts (like in Frozen). In some instances, entries are not in the
 proper column or annotations like script headings are included in 
 dialogue.
 * Used regular expressions to split the Shrek script found in Film 
-Corpus 2.0 into lines of dialogue (link here). This will then be split 
+Corpus 2.0 into lines of [dialogue]
+(https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Shrek_Lines.ipynb). 
+This will then be split 
 further to 
 create a dataframe, in which one column is speaker and the other is the 
 text.
@@ -60,3 +64,8 @@ redistribute. I will however, make my code available to anyone who may
 which to replicate it for research purposes. So far, my code only 
 contains small portions of the script data I am working with, which 
 wouldn't violate any copyright rules.
+
+### Data Sample
+I've included a sample of my corpus in the form of a csv file. It can be 
+found 
+[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/data_sample).
