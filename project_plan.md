@@ -35,8 +35,9 @@ Data will be gathered from the following sources:
 * A csv file of the scripts of Disney Princess movies (up to/including 
 Frozen)
   * URL : [Click 
-here](https://www.academia.edu/11575608/Corpus_of_Scripts_of_Disney_Princess_Films_1937--2013) 
-  * Info: columns are
+here](https://stanford.academia.edu/LeliaGlass/Corpora)
+  * Info: columns 
+are
       * the movie's time period
       * the speaker's utterance
       * speaker classified as princess/non-princess
