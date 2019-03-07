@@ -39,8 +39,8 @@ scripts (like in Frozen). In some instances, entries are not in the
 proper column or annotations like script headings are included in 
 dialogue.
 * Used regular expressions to split the Shrek script found in Film 
-Corpus 2.0 into lines of [dialogue]
-(https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Shrek_Lines.ipynb). 
+Corpus 2.0 into lines of 
+[dialogue](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Shrek_Lines.ipynb). 
 This will then be split 
 further to 
 create a dataframe, in which one column is speaker and the other is the 
