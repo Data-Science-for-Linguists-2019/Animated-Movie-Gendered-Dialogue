@@ -80,10 +80,10 @@ space](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendere
 in these text files, I was able to streamline the text to dataframe 
 process for The Croods, How To Train Your Dragon 2, and Rise of the 
 Guardians. The rought attempt to do this can be found 
-[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/DreamWorks_code/Dreamworks_RotG_%26_HTTRYD2_DataFrames.ipynb), 
+[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/DreamWorks_code/Rough_Streamline.ipynb), 
 and the 
 final streamline can be found 
-[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/DreamWorks_code/Dreamworks_RotG_%26_HTTRYD2_DataFrames.ipynb).
+[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/DreamWorks_code/Streamline_RotG_HTTYD2_Croods_DataFrames.ipynb).
 * Annotated the following Disney films with gender, role, and song 
 labels: Snow White, Cinderella, Sleeping Beauty, The Little Mermaid, 
 Aladdin, Beauty and the Beast, Pocahontas
