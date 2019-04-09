@@ -138,6 +138,35 @@ impact results!
 Note: I have rearranged my code, so the links in report 2 won't work. But, you can find my Disney Data code 
 [here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/Disney_code), my Dreamworks data code 
 [here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/DreamWorks_code), and old code that isn't part of 
-my final streamline [here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/old_code)
+my final streamline [here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/old_code). My introductory analysis 
+files can be found in the general [code folder](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code).
+
+### What I've accomplished:
+* I've completed by data annotations. I created a pickle file for all 13 Disney Movies, another file for all 9 Dreamworks movies, and one large pickle file with 
+every movie in it. See a sample of my data 
+[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/data_sample/all_movies_200.csv).
+* Some of my data (Tangled, Frozen, Megamind), was incomplete, incorrect, or just far to messy to parse through. I scraped these. To see an example of my scraping 
+code, go [here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Disney_code/Scraping_Tangled.ipynb)
+* I've looked at basic token and type count stats for both Disney and Dreamworks. So far, it looks like on average, female speakers have more lines than male 
+speakers, but for Dreamworks this isn't true. Of course, other roles the character plays in the movie could account for this. I will use these token/type stats to 
+create token/type lists for each character, and see how these vary across time and production company. Ultimatley, I want to see if these movies female characters 
+adhere more closely to features of Lakoff's "Feminine Speech". To do this, I will have to analyze...
+	* Vocabulary Complexity (comparing both TTR and k-band levels of a character's bag of words)
+	* Commands (What percentage of a character's lines are commanding another character): do female characters really use a more complex vocabulary?
+	* Does a character tend to be positive or negative in their speech?
+	* Use of exclamations/questions: it's expected that more feminine speech will be more unsure. Ellipsis may also be useful in looking at this.
+	* Hedging: do female speakers really use more hedge words (ellipsis could also factor into this one)
+	* Adjectives and adverbs: Do females really use more flowery language?
+	* Politeness: are women really more polite?
+	* Interruption: are female characters interrupted more often than male characters?
+
+For stats like politeness and hedges, word lists can either be created or found, then compared to a character's lines. For adjectives/adverbs, part of speech 
+tagging can be used. Question marks, exclamation points, interruptions, and ellipsis can be found with regular expressions. Importantly, I need to see if these 
+stats correlate the 
+most with gender, or something else. 
+For instance, whether a woman is a protagonist, antagonist, or a 
+helper could 
+seriously affect these stats. Maybe their royal status also comes into play. I personally think that the character's role in the plot will influence these 
+statistics more than gender will.
 
 
