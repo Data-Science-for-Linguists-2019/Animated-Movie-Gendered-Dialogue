@@ -1,5 +1,5 @@
 # Progress Reports
-## 1. Report 1: 7 February 2019
+##  Preliminary Report: 7 February 2019
   * Repo created: includes README.md, LICENSE.md (blank), 
 project_plan.md, progress_report.md, and .gitignore
   * Project plan outlines the data gathering and analysis necessary to 
@@ -133,3 +133,11 @@ films](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendere
 even after a lot of work, data can still be imperfect. Any and all 
 improvements on my work so far are more than welcome, and could heavily 
 impact results! 
+
+## 3rd Progress Report: 9 April 2019
+Note: I have rearranged my code, so the links in report 2 won't work. But, you can find my Disney Data code 
+[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/Disney_code), my Dreamworks data code 
+[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/DreamWorks_code), and old code that isn't part of 
+my final streamline [here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/old_code)
+
+
