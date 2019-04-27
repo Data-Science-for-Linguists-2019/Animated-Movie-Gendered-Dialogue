@@ -58,7 +58,7 @@ Removing the Lion King and adding Moana
 [Scraping_Frozen](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Disney_code/Scraping_Frozen.ipynb): 
 Web scraping a script for Frozen
 * 
-[Scraping_Tangles](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Disney_code/Scraping_Tangled.ipynb): 
+[Scraping_Tangled](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Disney_code/Scraping_Tangled.ipynb): 
 Web scraping a script for Tangled
 
 #### Dreamworks_code
@@ -95,7 +95,74 @@ creates a dataframe from the .txt script of Antz
 [httyd_megamind_kungfupanda](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/DreamWorks_code/httyd_megamind_kungfupanda.ipynb): 
 an analysis of how to approach these oddly 
 formatted scripts
-#### Analysis_code
-#### old_code
 
+#### Analysis_code
+* Preliminary Analysis: A folder of basic analysis and exploration of the 
+complete 
+[Disney](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Preliminary%20Analysis/Disney_Analysis_Basic.ipynb) 
+and 
+[Dreamworks](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Preliminary%20Analysis/Dreamworks_Analysis_Basic.ipynb) 
+dataframes
+* 
+[All_Movies_Analysis_Basic](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/All_Movies_Analysis_Basic.ipynb): 
+basic type/token analysis and exploration of the the full dataframe
+* 
+[All_Movies_Analysis_Basic_Part_2](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/All_Movies_Analysis_Basic_Part_2.ipynb): 
+Similar to the jupyter file above, but with saved image files
+* 
+[Char_Token_Type_Lists](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Char_Token_Type_Lists.ipynb): 
+creates a new dataframe of every character and their total Token/Type counts
+* 
+[Commands_Analysis](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Commands_Analysis.ipynb): 
+Finds commands in each line through regular expressions and looks for 
+significance in distributions
+* 
+[General_Stats_All_Movies](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/General_Stats_All_Movies.ipynb): 
+Looks at character distributions by gender and role
+* 
+[Hedges](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Hedges.ipynb): 
+Finds hedges in each line and looks for significance in distributions
+* 
+[POS_Tag_Adj_Analysis](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/POS_Tag_Adj_Analysis.ipynb): 
+Tags each line with part of speech and analyzes adjective distributions
+* 
+[Politeness_and_Apology](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Politeness_and_Apology.ipynb): 
+Finds polite forms and apologies in each line and looks for significance in 
+distributions
+* 
+[Significance_Tests_Token_Type_TTR](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Significance_Tests_Token_Type_TTR.ipynb): 
+Significance tests on token, type, ttr, and k-band distributions
+* [Tag_Questions](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Tag_Questions.ipynb): finds tag 
+questions with regular expressions and looks for significance in distributions
+* 
+[Tok_Type_TTR_Analysis](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Tok_Type_TTR_Analysis.ipynb): 
+Adds TTR and k-bands to the character dataframe and graphs distributions
+
+#### old_code
+Code that has been abandoned for one reason or another, but are still 
+important to the project
+* 
+[command_try_2](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/command_try_2.ipynb): 
+the code that eventually led me to my current 
+approach to commands
+* 
+[interruption](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/interruption.ipynb): 
+an attempt to look at interruption as a feature to 
+analyze, with poor results
+* 
+[Questions_Exclamations_Etc](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/Questions_Exclamations_Etc.ipynb): 
+an attempt to look at punctuation, but poor assumptions made
+* 
+[Rough_Streamline](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/Rough_Streamline.ipynb): 
+the code that eventually became my streamline for parsing 3 Dreamworks 
+movies
+* 
+[Shrek_Lines](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/Shrek_Lines.ipynb): 
+my very first attempt to approach the Dreamworks scripts
+* 
+[Topics_by_Gender](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/Topics_by_Gender.ipynb) 
+and 
+[Topics_by_Gender-Copy1](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/Topics_by_Gender-Copy1.ipynb): 
+both failed attempts to find significant topics of conversation between 
+genders
 
