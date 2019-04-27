@@ -15,8 +15,7 @@ This is the culmination of all the work I've done this semester. Enjoy!
 4. [Abandoned Pursuits](#fails)
     1. [Exclamation, Question, Ellipsis Count](#punc)
     2. [Topic by Gender](#topics)
-5. [Conclusion](#conclude)
-6. [Further Analysis](#further)
+5. [Further Analysis](#further)
 
 ## Project Summary <a name='summary'></a>
 My project investigates gender differences in dialogue in Animated Movies. It looks at 12 Disney princess movies and 9 Dreamworks movies and whether female 
@@ -370,11 +369,24 @@ than combative, I believe that
 * females will use more imperatives over time
 * Disney female characters will use fewer imperative commands than DreamWorks female characters
 
+From these two graphs, one can see that modal and imperative command distributions do vary:
+
+![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\imp_command_gen_role.png)
+![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\mod_command_gen_role.png)
+
+Will have to be determined by t-tests.
+
 In terms of Tags, I hypothesize that
 * female villains will use them less than female protagonists
 * female protagonists will use them more than male protagonists
 * Disney female charactres will use tags more than DreamWorks female characters
 * female characters will use them less over time
+
+From the looks of this distribution, there don't seem to be many glaring differences:
+
+![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\tagq_gen_role.png)
+
+It looks like in male antagonists and male protagonists actually use tags more.
 
 ![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\command_over_all.png)
 
@@ -408,12 +420,20 @@ more than the Disney scripts I ended up with some messed up and potentially misl
 
 This would suggest that no female villains whatsoever are interrupted, which I'm very skeptical of.
 
-I also tried exploring topics by gender. This was an adventure that ended in nonsense results. See them with my old code [here]() and [here](). I had a very hard 
+I also tried exploring topics by gender. This was an adventure that ended in nonsense results. See them with my old code 
+[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/Topics_by_Gender.ipynb) and 
+[here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/Topics_by_Gender-Copy1.ipynb). I had a very 
+hard 
 time 
-downloaded pattern, which was necessary to lemmatize my text before generating topics with gensim. When I FINALLY got it installed, the topics were mostly 
+downloading pattern, which was necessary to lemmatize my text before generating topics with gensim. When I FINALLY got it installed, the topics were mostly 
 gibberish, no matter if I used line by line analysis or processed all the tokens of each character together.
 
-## Conclusion <a name='conclude'></a>
 
 ## Further Analysis <a name='further'></a>
+As much as I found in this project, there's still a lot more to explore! I found some stats and significant differences, but much more work would have to be done to 
+get to WHY I'm seeing these differences. I'm sure it goes much deeper than just gender and role. For instance, I didn't explore speaker status (which is annotated 
+in the data), but being royalty or not could easily affect any of these stats.
+
+Furthermore, my analysis looks at line of dialogue as independent, rather than interactive. How a male, female, protagonist, or antagonist speaks is bound to be 
+influenced by when, where, and why they are speaking, not to mention who they're speaking to! I looked at gendered dialogue, not gender dynamics in dialogue.
 	
