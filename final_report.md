@@ -331,14 +331,70 @@ average over token count.
 Taking a look at the t-test results, we find some pretty significant 
 differences:
 
+![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\politeness_over_era.png)
+
+Though the insignificant t-test results indicate that my hypothesis about 
+female speakers becomes less polite over time, we do find something else 
+interesting. In every single era, male speakers are significantly less 
+polite than female speakers, even though men have gotten significantly more 
+polite over time.
+
+![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\politeness_over_all.png)
+
+Sure enough, men are significantly less polite than women (at least, 
+according to my parameters of politeness). Also, protagonists are 
+significantly more polite than antagonists, though female protagonists 
+are still significantly more polite than male protagonists. What I find 
+most interesting is the last column--female antagonists aren't more 
+polite than male antagonists! So, though being female seems to influence 
+the protagonist's politeness level, being female doesn't influence how 
+polite the villains will be.
+
+Though apology wasn't significant in the last table, here we see that protagonists consistently apologize more than antagonists, regardless of gender (though 
+something could certainly be said about the female p-value being 1000 times smaller than the male p-value). In general, 
+men don't apologize more or less than women.
+
 ![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables)
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables)
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables)
+
+Looking across companies, we find some more interesting differences. Again, the significant difference between protagonists and antagonists apologizing is 
+reflected in both Disney and DreamWorks heroes apologizing more than their antagonists. Also, my hypothesis about female characters across production companies is 
+supported! Disney female characters do indeed use more polite forms than their DreamWorks counterparts. Also, interestingly, female DreamWorks characters aren't any 
+more or less polite than their male counterparts. 
 
 
 ### Commands/Collaboration<a name='command'></a>
+Here, I've decided to look at Tags and 3 types of command: the imperative form, modal form, and suggestion. In line with the idea that women are more collaborative 
+than combative, I believe that 
+* female protagonists will use more suggestion and modal forms of command than male protagonists will.
+* female villains will use more imperative commands than female protagonists
+* females will use more imperatives over time
+* Disney female characters will use fewer imperative commands than DreamWorks female characters
 
-## Abandoned Pursuist <a name='fails'></a>
+In terms of Tags, I hypothesize that
+* female villains will use them less than female protagonists
+* female protagonists will use them more than male protagonists
+* Disney female charactres will use tags more than DreamWorks female characters
+* female characters will use them less over time
+
+![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\command_over_all.png)
+
+Here, we see that there's no significant difference between how female and male characters use modals or suggestion. But male characters use signficantly more 
+imperative forms! Also, we see that female villains do indeed use significantly more imperatives than female protagonists, and all differences between command 
+counts for male and female villains are insignificant. Meanwhile, the difference across the male 
+villains and protagonists is insignificant.
+
+![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\command_over_comp.png)
+
+Comparing across companies, there is a significant difference between how female Disney characters and female DreamWorks characters use imperatives, but Disney 
+female characters actually use them more. Also, female Disney characters do use significantly more modals. Disney characters in general, regardless of gender, use 
+more commands than Dreamworks characters.
+
+In terms of tags, there aren't many signficant differences pertaining to our hypotheses except that in general, protagonists use tags more often than villains.
+
+## Abandoned Pursuits <a name='fails'></a>
+There were some stats that I began working on that I stopped pursuing. They can be found in my [old code 
+folder](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/old_code). These include punctuation analysis, like 
+exclamation mark counts, question mark counts, ellipses counts, and interruption marks. 
 
 ## Conclusion <a name='conclude'></a>
 
