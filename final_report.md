@@ -91,13 +91,14 @@ My hypothesis:
 
 First, let's look at a couple visualizations:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\overall_avg_tok_gen_role.png)
+![png](images/overall_avg_tok_gen_role.png)
 This suggests that female antagonists actually have longer lines than both male antagonists and female protagonists!
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\avg_ttr_role_gender.png)
+![png](images/avg_ttr_role_gender.png)
 Also, female antagonists seem to have higher TTRs than protagonists--male or female! Might this suggest a more refined vocabulary in villains?
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\avg_kband_gen_role.png)
+![png](images/avg_kband_gen_role.png)
+
 K-Bands are also ways to measure vocabulary level, and here, the differences between males and females, and protagonists and antagonists, are very small.
 
 Token Count by line seems to be significant! Of course, significance tests need to be performed to confirm or deny this. The following three tables are the results 
@@ -108,7 +109,7 @@ means a t-test was performed between male Disney characters and male Dreamworks 
 characters 
 was higher. The lower entry -2.67 indicates the average for Disney male characters was less than that of the male Dreamworks characters. 
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\lex_over_comp.png)
+![png](images/stat_tables/lex_over_comp.png)
 
 These results support my hypothesis concerning female Dreamworks and Disney 
 characters.
@@ -138,7 +139,7 @@ Disney and Dreamworks, protagonists have significantly lower TTRs than their
 antagonists. This may hint at a higher vocabulary for villains. Does this 
 vary based on villain gender?
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\lex_overall.png)
+![png](images/stat_tables/lex_overall.png)
 
 It appears that female antagonists actually a significantly lower TTR 
 than their male counterparts. And the ttest between female protagonists and 
@@ -152,7 +153,7 @@ likely to be collaborative with others in the dialogue. Perhaps they're
 less likely to be interrupted. (For a failed look at interruption, see 
 Abandoned Pursuits below). 
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\lex_over_era.png)
+![png](images/stat_tables/lex_over_era.png)
 
 Though I thought that female token counts would go up over time, I've found 
 that this isn't consistent over time. In looking at the last three columns 
@@ -177,11 +178,11 @@ there are princes, but they don't talk very much at all. That only leaves suppor
 
 In fact, the distribution of characters by gender is an important thing to consider here. Consider the following graph of total line count by gender:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\total_lines_by_gen.png)
+![png](images/total_lines_by_gen.png)
 
 From the looks of this, male characters dominate! But when you normalize this over the number of characters of each gender, you get a very different picture:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\avg_num_line_by_gen.png)
+![png](images/avg_num_line_by_gen.png)
 
 We see that in several of the Disney movies, and even some Dreamworks movies, female characters individually average more lines than male characters. Considerations 
 like this and token length stats were taken into account when doing the next portion of analysis: Adjective Counts.
@@ -199,16 +200,16 @@ protagonists, and
 male characters tend to have longer lines than female characters. The longer a line is, the more likely it is that more adjectives will appear in it. So, I decided 
 I would divide the adjective count in each line by the token count of the line. Look at the differency this makes:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\adj_role_gen.png)
+![png](images/adj_role_gen.png)
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\adj_over_tok_role_gen.png)
+![png](images/adj_over_tok_role_gen.png)
 
 The differences between female and male antagonists, female and male protagonists, and female villains and heroes which seemed large in the first graph have been 
 balanced out--and now aren't so significant. But they ensure that token count isn't influencing our results!
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\adj_over_all.png)
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\adj_over_era.png)
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\adj_over_comp.png)
+![png](images/stat_tables/adj_over_all.png)
+![png](images/stat_tables/adj_over_era.png)
+![png](images/stat_tables/adj_over_comp.png)
 
 These results actually contradict my hypothesis. From the Overall Adjective 
 Use by Gender and Role Table, we see that male protagonists actually use 
@@ -260,19 +261,19 @@ characters
 A quick look at a bar graph comparing gender a role counts immediately puts 
 my hypotheses about role into question:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\hedges_by_gen_role.png)
+![png](images/hedges_by_gen_role.png)
 
 But this graph showing how hedge counts have changed over time shows that my 
 hypothesis about female hedge count over time may be valid:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\hedge_over_era_gen.png)
+![png](images/hedge_over_era_gen.png)
 
 It looks like females hedge less over time, while males hedge more over 
 time. 
 
 Let's look at hedges over time first:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\hedge_over_era.png)
+![png](images/stat_tables/hedge_over_era.png)
 
 Here, we see that female characters use hedges significantly less in the 
 middle and late periods than in the early period. Though they also use fewer 
@@ -287,12 +288,12 @@ so much.
 If we look at hedge use across companies, we see that there's no significant 
 differences based on gender:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\hedge_over_comp.png)
+![png](images/stat_tables/hedge_over_comp.png)
 
 In looking at gender and role overall, we see that differences occur when 
 gender and role interact:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\hedge_over_all.png)
+![png](images/stat_tables/hedge_over_all.png)
 
 Protagonists use more hedges than antagonists, but the difference between 
 female protagonists and female antagonists isn't signficant. Oddly, female 
@@ -317,12 +318,12 @@ protagonists and female villains
 From a quick look at the distributions, I'd say most of my hypotheses are on 
 track:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\polite_by_gen_role.png)
+![png](images/polite_by_gen_role.png)
 
 Except for my politeness over time hypothesis. Female Disney characters seem 
 to be getting more polite!
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\polite_by_gen_era.png)
+![png](images/polite_by_gen_era.png)
 
 Though, this may be influenced by token count. Like hedging, I did not 
 average over token count.
@@ -330,7 +331,7 @@ average over token count.
 Taking a look at the t-test results, we find some pretty significant 
 differences:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\politeness_over_era.png)
+![png](images/stat_tables/politeness_over_era.png)
 
 Though the insignificant t-test results indicate that my hypothesis about 
 female speakers becomes less polite over time, we do find something else 
@@ -338,7 +339,7 @@ interesting. In every single era, male speakers are significantly less
 polite than female speakers, even though men have gotten significantly more 
 polite over time.
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\politeness_over_all.png)
+![png](images/stat_tables/politeness_over_all.png)
 
 Sure enough, men are significantly less polite than women (at least, 
 according to my parameters of politeness). Also, protagonists are 
@@ -353,7 +354,7 @@ Though apology wasn't significant in the last table, here we see that protagonis
 something could certainly be said about the female p-value being 1000 times smaller than the male p-value). In general, 
 men don't apologize more or less than women.
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables)
+![png](images/stat_tables/politeness_over_comp.png)
 
 Looking across companies, we find some more interesting differences. Again, the significant difference between protagonists and antagonists apologizing is 
 reflected in both Disney and DreamWorks heroes apologizing more than their antagonists. Also, my hypothesis about female characters across production companies is 
@@ -371,8 +372,8 @@ than combative, I believe that
 
 From these two graphs, one can see that modal and imperative command distributions do vary:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\imp_command_gen_role.png)
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\mod_command_gen_role.png)
+![png](images/imp_command_gen_role.png)
+![png](images/mod_command_gen_role.png)
 
 Will have to be determined by t-tests.
 
@@ -384,20 +385,20 @@ In terms of Tags, I hypothesize that
 
 From the looks of this distribution, there don't seem to be many glaring differences:
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\tagq_gen_role.png)
+![png](images/tagq_gen_role.png)
 
 It looks like in male antagonists and male protagonists actually use tags more.
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\command_over_all.png)
+![png](images/stat_tables/command_over_all.png)
 
 Here, we see that there's no significant difference between how female and male characters use modals or suggestion. But male characters use signficantly more 
 imperative forms! Also, we see that female villains do indeed use significantly more imperatives than female protagonists, and all differences between command 
 counts for male and female villains are insignificant. Meanwhile, the difference across the male 
 villains and protagonists is insignificant.
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\stat_tables\command_over_comp.png)
+![png](images/stat_tables/command_over_comp.png)
 
-Comparing across companies, there is a significant difference between how female Disney characters and female DreamWorks characters use imperatives, but Disney 
+Comparing acrpss companies, there is a significant difference between how female Disney characters and female DreamWorks characters use imperatives, but Disney 
 female characters actually use them more. Also, female Disney characters do use significantly more modals. Disney characters in general, regardless of gender, use 
 more commands than Dreamworks characters.
 
@@ -416,7 +417,7 @@ these, though, check out my [PowerPoint](https://github.com/Data-Science-for-Lin
 Interruption was more promising, until I realized that it wasn't distributed across all scripts equally. Because DreamWorks scripts tended to mark interruption much 
 more than the Disney scripts I ended up with some messed up and potentially misleading stats, like the bar graph below.
 
-![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\inter_gen_role.png)
+![png](images/inter_gen_role.png)
 
 This would suggest that no female villains whatsoever are interrupted, which I'm very skeptical of.
 
