@@ -102,7 +102,9 @@ Also, female antagonists seem to have higher TTRs than protagonists--male or fem
 K-Bands are also ways to measure vocabulary level, and here, the differences between males and females, and protagonists and antagonists, are very small.
 
 Token Count by line seems to be significant! Of course, significance tests need to be performed to confirm or deny this. The following three tables are the results 
-of [ttests](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Significance_Tests_Token_Type_TTR.ipynb) on the 
+of 
+[ttests](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Significance_Tests_Token_Type_TTR.ipynb) 
+on the 
 features I used to track lexical complexity. Any significant tests are 
 highlighted in green. Also note that the sign of the "stat" number is consistent with the order in which the comparison is listed. For instance, Disney M v DW M 
 means a t-test was performed between male Disney characters and male Dreamworks characters. The first Stat value +3.19, implies that the average for male Disney 
@@ -198,7 +200,10 @@ I hypothesize that
 To assess my hypothesis, I decided I shouldn't use raw adjective counts per line. We saw in the bar graphs above that antagonists tend to have longer lines than 
 protagonists, and 
 male characters tend to have longer lines than female characters. The longer a line is, the more likely it is that more adjectives will appear in it. So, I decided 
-I would divide the adjective count in each line by the token count of the line. Look at the differency this makes:
+I would [divide the adjective 
+count](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/code/Analysis_code/POS_Tag_Adj_Analysis.ipynb#adj2) 
+in each 
+line by the token count of the line. Look at the difference this makes:
 
 ![png](images/adj_role_gen.png)
 
@@ -240,8 +245,8 @@ subsequent analyses, counts are also very small.
 ### Hedges<a name='hedge'></a>
 Unlike adjectives, I decided not to average hedge counts over token count, 
 mostly 
-because some hedges used were [not single words](link here to hedges 
-notebook).
+because some hedges used were [not single 
+words](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Hedges.ipynb#findhedge).
 
 One aspect of this stats results that I have concern with is what it 
 captures. In this analysis, I used a list of words and phrases. Some hedges 
@@ -258,7 +263,8 @@ characters
 * Female protagonists will use them more than men
 * Female characters will use fewer hedges over time
 
-A quick look at a bar graph comparing gender a role counts immediately puts 
+A quick look at a bar graph comparing gender and role counts immediately 
+puts 
 my hypotheses about role into question:
 
 ![png](images/hedges_by_gen_role.png)
@@ -304,7 +310,9 @@ personally have no idea why this might be, but it would be something
 interesting to investigate in the future.
 
 ### Politeness<a name='polite'></a>
-These counts were also pretty low when I [found them](link here), so I 
+These counts were also pretty low when I [found 
+them](https://nbviewer.jupyter/github/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Politeness_and_Apology.ipynb#find), 
+so I 
 didn't expect to get many significant results--but this ended up yielding 
 some of the most significant results! I consider polite forms like "please" 
 and "thank you" separately from apologies like "sorry". 
@@ -328,7 +336,9 @@ to be getting more polite!
 Though, this may be influenced by token count. Like hedging, I did not 
 average over token count.
 
-Taking a look at the t-test results, we find some pretty significant 
+Taking a look at the [t-test 
+results](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Politeness_and_Apology.ipynb#spo), 
+we find some pretty significant 
 differences:
 
 ![png](images/stat_tables/politeness_over_era.png)
@@ -363,7 +373,12 @@ more or less polite than their male counterparts.
 
 
 ### Commands/Collaboration<a name='command'></a>
-Here, I've decided to look at Tags and 3 types of command: the imperative form, modal form, and suggestion. In line with the idea that women are more collaborative 
+Here, I've decided to look at 
+[Tags](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Tag_Questions.ipynb#code) 
+and [3 types of 
+command](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Commands_Analysis.ipynb#fc): 
+the 
+imperative form, modal form, and suggestion. In line with the idea that women are more collaborative 
 than combative, I believe that 
 * female protagonists will use more suggestion and modal forms of command than male protagonists will.
 * female villains will use more imperative commands than female protagonists
@@ -375,7 +390,6 @@ From these two graphs, one can see that modal and imperative command distributio
 ![png](images/imp_command_gen_role.png)
 ![png](images/mod_command_gen_role.png)
 
-Will have to be determined by t-tests.
 
 In terms of Tags, I hypothesize that
 * female villains will use them less than female protagonists
