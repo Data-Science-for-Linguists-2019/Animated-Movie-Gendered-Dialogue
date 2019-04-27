@@ -394,7 +394,24 @@ In terms of tags, there aren't many signficant differences pertaining to our hyp
 ## Abandoned Pursuits <a name='fails'></a>
 There were some stats that I began working on that I stopped pursuing. They can be found in my [old code 
 folder](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/old_code). These include punctuation analysis, like 
-exclamation mark counts, question mark counts, ellipses counts, and interruption marks. 
+[exclamation mark counts, question mark counts, ellipses 
+counts](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/Questions_Exclamations_Etc.ipynb), and 
+[interruption marks](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/interruption.ipynb). The basic 
+idea was that exclamations would signal confidence in an utterance, while questions and ellipses would indicate uncertainty and hesitancy. However, these 
+punctuation marks can express such a wide variety of things that I decided they weren't the best things to investigate. If you want to see some visualizations of 
+these, though, check out my [PowerPoint](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/Project_Presentation.pdf). 
+
+Interruption was more promising, until I realized that it wasn't distributed across all scripts equally. Because DreamWorks scripts tended to mark interruption much 
+more than the Disney scripts I ended up with some messed up and potentially misleading stats, like the bar graph below.
+
+![image](C:\Users\cassi\Desktop\Data_Science\Animated-Movie-Gendered-Dialogue\images\inter_gen_role.png)
+
+This would suggest that no female villains whatsoever are interrupted, which I'm very skeptical of.
+
+I also tried exploring topics by gender. This was an adventure that ended in nonsense results. See them with my old code [here]() and [here](). I had a very hard 
+time 
+downloaded pattern, which was necessary to lemmatize my text before generating topics with gensim. When I FINALLY got it installed, the topics were mostly 
+gibberish, no matter if I used line by line analysis or processed all the tokens of each character together.
 
 ## Conclusion <a name='conclude'></a>
 
