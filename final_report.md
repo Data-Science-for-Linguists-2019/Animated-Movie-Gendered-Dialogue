@@ -441,12 +441,14 @@ punctuation marks can express such a wide variety of things that I decided they 
 these distributions, though, check out my 
 [PowerPoint](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/Project_Presentation.pdf). 
 
-Interruption was more promising, until I realized that it wasn't distributed across all scripts equally. Because DreamWorks scripts tended to mark interruption much 
+Interruption, included in Lakoff's list, was more promising, until I realized that interruption marks weren't distributed across all scripts equally. Because 
+DreamWorks scripts tended to mark interruption much 
 more than the Disney scripts I ended up with some messed up and potentially misleading stats, like the bar graph below.
 
 ![png](images/inter_gen_role.png)
 
-This would suggest that no female villains whatsoever are interrupted, which I'm very skeptical of.
+This would suggest that no female villains whatsoever are interrupted. Dreamworks has exaclty one female villain (Spoiler alert--it's Rapunzel in Shrek the Third). 
+Disney has a lot of female villains (the evil queen, Lady Tremaine, Maleficent, and Urusla). This made me very skeptical of my results. 
 
 I also tried exploring topics by gender. This was an adventure that ended in nonsense results. See them with my old code 
 [here](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/old_code/Topics_by_Gender.ipynb) and 
@@ -456,12 +458,20 @@ time
 downloading pattern, which was necessary to lemmatize my text before generating topics with gensim. When I FINALLY got it installed, the topics were mostly 
 gibberish, no matter if I used line by line analysis or processed all the tokens of each character together.
 
-
 ## Further Analysis <a name='further'></a>
+
 As much as I found in this project, there's still a lot more to explore! I found some stats and significant differences, but much more work would have to be done to 
 get to WHY I'm seeing these differences. I'm sure it goes much deeper than just gender and role. For instance, I didn't explore speaker status (which is annotated 
 in the data), but being royalty or not could easily affect any of these stats.
 
-Furthermore, my analysis looks at line of dialogue as independent, rather than interactive. How a male, female, protagonist, or antagonist speaks is bound to be 
-influenced by when, where, and why they are speaking, not to mention who they're speaking to! I looked at gendered dialogue, not gender dynamics in dialogue.
+My stats were also drawn from basic word lists or regular expressions, which may over- or under-capture what I'm really looking for. Refinements and different 
+approaches to finding hedges, commands, polite phrases, and tag questions could seriously change my results! 
+
+Furthermore, my analysis looks at lines of dialogue as independent, rather than interactive. All stats are found for each line, with no regard to the other lines or 
+speakers in that scene. How a male, female, protagonist, or antagonist speaks is bound to be 
+influenced by when, where, and why they are speaking, not to mention who they're speaking to! I looked at gendered dialogue, but not gender dynamics in dialogue, 
+which would be equally interesting.
+
+I welcome any questions, comments and/or suggestions to my project! If you've visited and what to leave a note, head over to my 
+[guestbook](https://github.com/Data-Science-for-Linguists-2019/Class-Plaza/blob/master/guestbooks/guestbook_cassie.md).
 	
