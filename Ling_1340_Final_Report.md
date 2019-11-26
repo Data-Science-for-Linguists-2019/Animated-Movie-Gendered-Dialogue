@@ -13,8 +13,8 @@ This is the culmination of all the work I've done this semester. Enjoy!
     4. [Politeness](#polite)
     5. [Commands/Collaboration](#command)
 4. [Abandoned Pursuits](#fails)
-    1. [Exclamation, Question, Ellipsis Count](#punc)
-    2. [Topic by Gender](#topics)
+    1. Exclamation, Question, Ellipsis Count
+    2. Topic by Gender
 5. [Further Analysis](#further)
 
 ## Project Summary <a name='summary'></a>
@@ -46,7 +46,7 @@ speech. Female antagonists, on the
 other hand, live 
 outside of these social constraints. Unburdened from the social expectations of a "good" woman, and often in positions of power within their own social 
 spheres, female antagonists will not exhibit these "feminine" features. Furthermore, as Disney has aged, social expectations of girls have changed. Their role 
-models, the Disney Princesses, will reflect these changes in social expecatations. Similarly, many Dreamworks female protagonists are not princesses, nor are they 
+models, the Disney Princesses, will reflect these changes in social expectations. Similarly, many Dreamworks female protagonists are not princesses, nor are they 
 the main character of the story. They also won't have to reach certain social expectations of the ideal girl. 
 
 In summary, I believe that: 
@@ -59,7 +59,7 @@ In summary, I believe that:
 For the sources of my data, see [project_plan.md](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/project_plan.md).
 
 This project involved a LOT of data cleaning. For how I annotated and edited by data, go to my code. The [Disney 
-movies](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/Disney_code) was mostly annotation, with some web 
+movies](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/Disney_code) code was mostly annotation, with some web 
 scraping for particularly messy data. The [DreamWorks 
 movies](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/tree/master/code/DreamWorks_code) were all scripts formatted as text 
 files. I had to find a way to split these by line through [analyzing white 
@@ -134,7 +134,7 @@ male Disney characters. So, while male Disney characters may talk more
 during individual utterances, overall female Disney characters are talking the 
 most.
 
-Keeping this in mind, this would imply that female Disney characters speak 
+Keeping this in mind, these results would imply that female Disney characters speak 
 longer per line than female Dreamworks characters, AND female Disney 
 characters have more speaking time overall than female Dreamworks characters.
 
@@ -209,7 +209,7 @@ To assess my hypothesis, I decided I shouldn't use raw adjective counts per line
 protagonists, and 
 male characters tend to have longer lines than female characters. The longer a line is, the more likely it is that more adjectives will appear in it. So, I decided 
 I would [divide the adjective 
-count](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/code/Analysis_code/POS_Tag_Adj_Analysis.ipynb#adj2) 
+count](https://github.com/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/POS_Tag_Adj_Analysis.ipynb) 
 in each 
 line by the token count of the line. Look at the difference this makes:
 
