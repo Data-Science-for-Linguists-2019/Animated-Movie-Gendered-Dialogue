@@ -344,7 +344,7 @@ to be getting more polite!
 ![png](images/polite_by_gen_era.png)
 
 Though, this may be influenced by token count. Like hedging, I did not 
-average this stat over token count due to multi-word hedges.
+average this stat over token count due to multi-word polite phrases.
 
 Taking a look at the [t-test 
 results](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Animated-Movie-Gendered-Dialogue/blob/master/code/Analysis_code/Politeness_and_Apology.ipynb#spo), 
@@ -392,7 +392,7 @@ the
 imperative form (as in "stop!", the modal form (as in "you must stop!"), and suggestion (as in "you should stop.") . In line with the idea that women are more 
 collaborative 
 than combative, I believe that 
-* female protagonists will use more suggestion and modal forms of command than male protagonists will.
+* female protagonists will use more suggestion and modal forms of command than male protagonists will
 * female villains will use more imperative commands than female protagonists
 * females will use more imperatives over time
 * Disney female characters will use fewer imperative commands than DreamWorks female characters
@@ -413,13 +413,14 @@ From the looks of this distribution, there don't seem to be many glaring differe
 
 ![png](images/tagq_gen_role.png)
 
-However, it looks like in male antagonists and male protagonists actually use tags more.
+However, it looks like male antagonists and male protagonists actually use tags more.
 
 ![png](images/stat_tables/command_over_all.png)
 
-Here, we see that there's no significant difference between how female and male characters use modals or suggestion. But male characters use signficantly more 
+Here, we see that there's no significant difference overall between how female and male characters use modals or suggestion, though female protagonists do tend to 
+use modals more than their male counterparts, and male characters use signficantly more 
 imperative forms! Also, we see that female villains do indeed use significantly more imperatives than female protagonists, and all differences between command 
-counts for male and female villains are insignificant. Meanwhile, the difference across the male 
+counts for male and female villains are insignificant. Meanwhile, the difference across male 
 villains and protagonists is insignificant--female villains seem to use just as many commands as all male characters.
 
 ![png](images/stat_tables/command_over_comp.png)
@@ -473,6 +474,6 @@ speakers in that scene. How a male, female, protagonist, or antagonist speaks is
 influenced by when, where, and why they are speaking, not to mention who they're speaking to! I looked at gendered dialogue, but not gender dynamics in dialogue, 
 which would be equally interesting.
 
-I welcome any questions, comments and/or suggestions to my project! If you've visited and what to leave a note, head over to my 
+I welcome any questions, comments and/or suggestions to my project! If you've visited and want to leave a note, head over to my 
 [guestbook](https://github.com/Data-Science-for-Linguists-2019/Class-Plaza/blob/master/guestbooks/guestbook_cassie.md).
 	
